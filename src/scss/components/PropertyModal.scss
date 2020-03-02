@@ -1,0 +1,64 @@
+.vpinsight__add-property-popup {
+    width: 540px;
+    height: 400px;
+}
+
+.vpinsight__add-property-popup .ant-modal-body {
+    padding: 50px
+}
+
+.vpinsight__add-property-button {
+    width: 244px;
+    height: 54px;
+}
+
+.vpinsight__large-add-property-icon {
+    width: 120px;
+    height: 120px;
+
+    border: 1px solid rgba($color: #AFB3C0, $alpha: 0.5);
+
+    .icon-add-property {
+        font-size: 108px;
+        line-height: 108px;
+
+        max-height: 108px;
+        overflow: hidden;
+
+        background: linear-gradient( #2784E9, #0E4DC5 );
+        background-clip: text;
+        text-fill-color: trasparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+.vpinsight__places-autocomplete-input {
+    input {
+        width: 100%;
+        height: 50px;
+        font-size: 14px;
+        padding: 0px 14px !important;
+
+        border-radius: 6px;
+
+        border: 1px solid #D8DADF;
+
+        &:focus {
+            outline: none;
+            border-color: rgba( #1D6FDC, 0.4 );
+            box-shadow: 0px 0px 6px 0px rgba( #1D6FDC, 0.3 );
+        }
+
+        &::placeholder {
+            color: rgba( #404966, 0.3 );
+            font-weight: 500;
+        }
+    }
+
+    #PlacesAutocomplete__autocomplete-container {
+        max-height: 164px;
+        overflow-x: hidden;
+        overflow-y: scroll;
+    }
+}

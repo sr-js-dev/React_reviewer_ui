@@ -1,0 +1,22 @@
+.reviews__landing-action-section {
+  background-image: url('#{ $imagesRootURL }/landing/action-bg.svg');
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  height: 430px;
+
+  .reviews__landing-intersection-block:first-child {
+    top: 50% !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .reviews__landing-action-section {
+    padding: 42px 36px !important;
+    height: auto;
+
+    background-image: url('#{ $imagesRootURL }/landing/action-bg_mobile.svg');
+    background-size: 100%;
+  }
+}

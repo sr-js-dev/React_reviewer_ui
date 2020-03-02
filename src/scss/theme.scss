@@ -1,0 +1,225 @@
+@tailwind preflight;
+@tailwind components;
+
+// @import "./mics/iconfont";
+@import "./misc/montserrat";
+
+@import "./components/Sidebar";
+
+body,
+body * {
+    font-family: 'Montserrat', sans-serif;
+    font-feature-settings: normal !important;
+    font-variant: normal !important;
+}
+
+// body {
+//     overflow: hidden;
+// }
+
+a {
+    color: #1d6fdc;
+    text-decoration: none;
+
+    &:hover {
+        color: #5494E8
+    }
+}
+
+.after-arrow-right {
+    position: relative;
+
+
+    .content {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        z-index: 20;
+        background-color: inherit;
+        border-radius: inherit;
+    }
+
+    &:after {
+        content: " ";
+        position: absolute;
+        display: block;
+
+        border-color: inherit;
+        border-width: inherit;
+        background-color: inherit;
+
+        width: 8px;
+        height: 8px;
+
+        top: 50%;
+        margin-top: -4px;
+
+        right: -4px;
+
+        transform: rotate( 45deg );
+        z-index: 10;
+    }
+}
+
+.react-tooltip-lite {
+    background: #fff;
+    box-shadow: 0px 0px 6px 3px rgba( 217, 221, 224, 0.3 );
+    color: #2d3039;
+    font-size: 14px;
+    text-align: center
+}
+
+.react-tooltip-lite-arrow {
+    border-color: #fff;
+}
+
+.vpinsight__scroll-bottom-gradient {
+    position: absolute;
+}
+
+.bg-bottom-gradient {
+    background: linear-gradient( rgba( 255,255,255,0 ), #fff );
+    transition: opacity .2s ease;
+}
+
+.vpinsight__main {
+    padding-top: 5.25rem;
+}
+
+.reviews__gradient-section {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgb(255, 255, 255));
+}
+
+.reviews__rating-chart-tooltip {
+
+}
+
+$transitions: (
+    'short': .1s,
+    'common': .2s,
+    'longer': .4s,
+    'long': 1s,
+    'longest': 2s
+);
+
+$easings: (
+    ease, ease-in, linear
+);
+
+@each $transition, $time in $transitions {
+    .#{ $transition }-transition {
+        transition: all #{ $time } ease-out;
+        transition-property: max-width, max-height, transform, opacity;
+    }
+
+    .#{ $transition }-bg-transition {
+        transition: all #{ $time } ease-out;
+        transition-property: background, background-color;
+    }
+
+    @each $easing in $easings {
+        .#{ $transition }-#{ $easing }-transition {
+            transition: all #{ $time } $easing;
+            transition-property: max-width, max-height, transform, opacity;
+        }
+    }
+}
+
+.ant-modal-mask {
+    background-color: rgba( #000, 0.82 );
+}
+
+.ant-modal-content {
+    border-radius: 6px;
+}
+
+.ant-tooltip {
+    .ant-tooltip-arrow {
+        width: 14px;
+        height: 14px;
+    }
+
+    .ant-tooltip-arrow:before,
+    .ant-tooltip-inner {
+        background-color: #ffffff;
+    }
+
+    .ant-tooltip-arrow:before {
+        width: 8px;
+        height: 8px;
+    }
+
+    .ant-tooltip-inner {
+        border-radius: 6px;
+        box-shadow: 0 12px 24px 0 #55586233;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 1.25;
+        color: #afb3c0;
+        text-align: center;
+        padding: 14px;
+    }
+}
+.ant-tooltip-placement-topRight .ant-tooltip-arrow {
+    right: 14px;
+}
+
+.ant-tooltip-placement-top .ant-tooltip-arrow,
+.ant-tooltip-placement-topLeft .ant-tooltip-arrow,
+.ant-tooltip-placement-topRight .ant-tooltip-arrow {
+    bottom: -6px;
+}
+
+
+.reviews__transparent-antd-modal {
+    .ant-modal-content {
+        position: relative;
+        box-shadow: none;
+        background: none;
+    }
+
+    .ant-modal-body {
+        padding: 0;
+    }
+}
+
+.reviews__flag {
+    width: 24px;
+    height: 16px;
+
+    overflow: hidden;
+
+    border-radius: 2px;
+    background-color: #d8d8d8;
+
+    position: relative;
+
+    img {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+    }
+}
+
+.reviews__dismiss-progress {
+    .ant-progress-circle-trail {
+        stroke: rgba( #afb3c0, 0.2 ) !important;
+    }
+}
+
+.font-bold {
+    letter-spacing: -0.45px;
+}
+
+@media (max-width: 991px) {
+    .vpinsight__main {
+        padding-top: 4rem;
+    }
+}
+
+@tailwind utilities;

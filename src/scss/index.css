@@ -1,0 +1,232 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'proxima-nova', sans-serif;
+  background-color: #FFFFFF;
+  color: #373737;
+  text-rendering: optimizeLegibility;
+  min-height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-vpa {
+  background: #fff;
+  height: 125px;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-vpa-sidebar {
+  height: 125px;
+  background-color: #EFEFEF;
+}
+
+.bg-vpa a {
+  color: #373737;
+  font-size: 1.0em;
+}
+
+.bg-vpa a:not([href]) {
+    /* color: #fff; */
+    font-size: 1.0em;
+    cursor: pointer;
+}
+
+.bg-vpa a:not([href]):hover {
+    /* color: #fff; */
+    font-size: 1.0em;
+    cursor: pointer;
+}
+
+.navbar-brand {
+  color: #A9A9A9 !important;
+  font-size: 2.0em !important;
+  background-color: #EFEFEF !important;
+}
+
+.bg-sidebar {
+  background-color: #EFEFEF;
+}
+
+.vpa-link {
+    cursor: pointer;
+}
+
+.vpa-link:hover {
+    text-decoration: underline !important;
+    cursor: pointer;
+}
+
+.company-name {
+  font-size: 2.0em;
+  margin-left: 90px;
+  color: #A9A9A9;
+}
+
+.product-name {
+  font-size: 1.0em;
+  margin-right: 90px;
+  color: #565656;
+}
+
+.login-header {
+  height: 155px;
+  background-color: #EFEFEF;
+}
+
+.property-selector {
+  color: #373737;
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.property-selector li a{
+  padding-left: 0 !important;
+}
+
+.card-title {
+  color: #373737;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.page-title {
+  color: #373737;
+}
+
+.form-group {
+  color: #A9A9A9;
+}
+
+.form-signin {
+  padding-top: 20px;
+  margin: auto;
+  width: 350px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #5C80BC;
+  border-color: #5C80BC;
+}
+
+.main {
+  /* width: 100%; */
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.side-menu {
+  width: 250px;
+  border-right: 1px solid rgba(0, 0, 0, 0.12);
+      transition-property: left;
+}
+
+.loading {
+  width: 50px;
+  height: 50px;
+}
+
+.btn-filter {
+  background-color: #fff;
+  color: #30323D;
+}
+
+.vp-th {
+  background-color: #CAEBF2;
+  color: #373737;
+  opacity: .7;
+}
+
+.vp-th a {
+  color: #373737;
+  font-weight: lighter;
+}
+
+.vp-tr td {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: 200;
+}
+
+p.listing-detail {
+  margin: 0;
+  strong {
+    width: 175px;
+    display: inline-block;
+    color: $gray-font-color;
+  }
+}
+
+p.listing-detail strong{
+  width: 175px;
+  display: inline-block;
+  color: $gray-font-color;
+}
+
+p.account-detail strong{
+  width: 350px;
+  display: inline-block;
+  color: $gray-font-color;
+}
+
+.vp-calendar {
+  height: 700px;
+}
+
+.booking-avg {
+  padding: 5px;
+}
+
+.rbc-event {
+  margin: 5px;
+  padding: 0px;
+  color: #fff;
+  border-radius: 0;
+  /* height: 25px !important; */
+}
+
+.rbc-event-content {
+  height: 30px !important;
+}
+
+.rbc-toolbar-label {
+  font-size: 1.8em;
+}
+
+.calendar-text {
+  color: #fff;
+}
+
+.competition-pricing {
+  color: #212529;
+  opacity: 0.7;
+}
+
+.monthStat {
+  border: 1px solid;
+  border-radius: 2px;
+  border-color: #212529;
+  padding: 10px;
+  opacity: 0.9;
+}
+
+.email-wrapper {
+  border-radius: 0.25rem;
+  border: 1px solid #ced4da;
+}
+
+.email-editor {
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  font-size: 1rem;
+  line-height: 1.5;
+}

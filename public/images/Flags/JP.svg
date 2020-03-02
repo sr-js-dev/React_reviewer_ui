@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="19px" viewBox="0 0 28 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Flags/JP</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="28" height="19" rx="2"></rect>
+    </defs>
+    <g id="Flags/JP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect stroke="#979797" x="0.5" y="0.5" width="27" height="18" rx="2"></rect>
+        <g id="033-japan" mask="url(#mask-2)" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#F0F0F0" x="0" y="0.0183888889" width="28" height="18.9631667"></rect>
+            <ellipse id="Oval" fill="#D80027" cx="14" cy="9.49966667" rx="5.25" ry="5.33333333"></ellipse>
+        </g>
+    </g>
+</svg>

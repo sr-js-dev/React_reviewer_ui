@@ -1,0 +1,55 @@
+.largeBarChart__tooltip {
+    width: 140px;
+    height: 76px;
+
+    top: auto;
+    bottom: 146px;
+
+    z-index: 20;
+}
+
+.largeBarChart__tooltip:after {
+    transition: all .3s ease-out;
+}
+
+.largeBarChart__tooltip.largeBarChart__tooltip_right:after {
+    margin-left: 0px;
+    right: 10%;
+    left: auto;
+}
+
+.largeBarChart__tooltip.largeBarChart__tooltip_left:after {
+    margin-left: 0px;
+    left: 10%;
+}
+
+.vpinsight__large-bar-plan-overlay {
+    top: 10px;
+    height: 36px;
+}
+
+@media (max-width: 768px) {
+    .vpinsight__large-bar-chart {
+        position: relative;
+        width: 110%;
+        left: -5%;
+    }
+}
+
+@media (min-width: 768px) {
+    .vpinsight__large-bar-chart-container {
+        max-width: calc( 66.67% - 20px );
+    }
+    .vpinsight__large-bar-plan-overlay {
+        top: 1px;
+        height: 60px;
+    }
+
+    .largeBarChart__tooltip {
+        width: 180px;
+        height: 90px;
+
+        top: auto;
+        bottom: 146px
+    }
+}

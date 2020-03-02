@@ -1,0 +1,53 @@
+.vpinsight__topbar-notification-dot {
+    background: linear-gradient( 90deg, rgba( #fff, 0 ), rgba( #fff, 0.2 ) ), #FF5A5F;
+
+    width: 7px;
+    height: 7px;
+}
+
+.ant-popover.vpinsight__notification-tooltip {
+    width: 360px;
+
+    .ant-popover-inner-content {
+        box-shadow: 0px 0px 5px 0px rgba( #000, 0.2 );
+        border-radius: 6px;
+        padding: 0px;
+    }
+}
+
+.vpinsight__topbar-notifications-container {
+    max-height: 450px;
+}
+
+.vpinsight__notification-icon {
+    width: 46px;
+    height: 46px;
+
+    border-radius: 50%;
+}
+
+.vpinsight__mobile-notifications {
+    min-height: 140px;
+    background-color: rgba( #AFB3C0, 0.2 );
+    box-shadow: inset 0px -1px 0px 0px rgba( #000000, 0.05 );
+
+
+    .slick-slide:not(.slick-current) {
+        transform: translateX( -5% );
+    }
+
+    .slick-slide.slick-current + .slick-slide {
+        transform: translateX( 5% );
+    }
+}
+
+@media (min-width: 557px) {
+    .vpinsight__topbar-notification-dot {
+        margin-top: -3px;
+        margin-right: -4px;
+
+        width: 14px;
+        height: 14px;
+    }
+}
+

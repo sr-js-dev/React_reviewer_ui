@@ -1,0 +1,20 @@
+.info-popup {
+  &--tooltip {
+    .ant-tooltip-inner {
+      background-color: #fff;
+      box-shadow: 0 12px 24px 0 rgba(85, 88, 98, 0.2);
+      padding: 14px;
+      max-width: 200px;
+      text-align: center;
+    }
+    .ant-tooltip-arrow {
+      border-top-color: #fff;
+    }
+    .ant-tooltip-inner {
+      color: #afb3c0;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 12px;
+      line-height: 1.25;
+    }
+  }
+}

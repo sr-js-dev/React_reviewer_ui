@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="19px" viewBox="0 0 28 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Flags/BR</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="28" height="19" rx="2"></rect>
+    </defs>
+    <g id="Flags/BR" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect stroke="#979797" x="0.5" y="0.5" width="27" height="18" rx="2"></rect>
+        <g id="250-brazil" mask="url(#mask-2)" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#6DA544" x="0" y="0.0183888889" width="28" height="18.9631667"></rect>
+            <polygon id="Path" fill="#FFDA44" points="14 4.25988889 21 9.49966667 14 14.7394444 7 9.49966667"></polygon>
+            <ellipse id="Oval" fill="#F0F0F0" cx="14" cy="9.49966667" rx="2.94732812" ry="2.99411111"></ellipse>
+            <g id="Group" transform="translate(11.046875, 6.500000)" fill="#0052B4">
+                <path d="M1.47940625,2.81255556 C0.966875,2.81255556 0.47228125,2.89177778 0.006671875,3.03866667 C0.0272890625,4.67422222 1.33820312,5.99383333 2.95307031,5.99383333 C3.95160937,5.99383333 4.83355469,5.48888889 5.36664844,4.71711111 C4.45467969,3.55716667 3.051125,2.81255556 1.47940625,2.81255556 Z" id="Path"></path>
+                <path d="M5.84582031,3.57333333 C5.8813125,3.38755556 5.90050781,3.19594444 5.90050781,2.99966667 C5.90050781,1.34605556 4.58089844,0.0055 2.953125,0.0055 C1.73851562,0.0055 0.695898437,0.752055556 0.244617187,1.81788889 C0.643453125,1.734 1.05645312,1.68972222 1.47940625,1.68972222 C3.19134375,1.68977778 4.73998437,2.41261111 5.84582031,3.57333333 Z" id="Path"></path>
+            </g>
+        </g>
+    </g>
+</svg>

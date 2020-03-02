@@ -1,0 +1,79 @@
+.reviews__landing-features-section {
+
+}
+
+.reviews__landing-features-block {
+  width: 75%;
+  max-width: 1050px;
+  margin-bottom: 140px;
+}
+
+.reviews__landing-features-card {
+  width: 320px;
+  min-height: 400px;
+  margin: 15px;
+
+  transition: all .6s ease-out;
+  transition-property: box-shadow, transform;
+
+  h2 {
+    white-space: pre-line;
+  }
+}
+
+.reviews__landing-features-card-icon {
+  width: 200px;
+  height: 200px;
+
+  svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  svg #mainGroup #hover,
+  svg #mainGroup #idle {
+    opacity: 0;
+  }
+
+  svg #hover,
+  svg #idle,
+  svg #icon {
+    transition: transform .6s ease-out;
+  }
+
+  svg #icon {
+    transform-origin: 50% 50%;
+  }
+}
+
+@media (max-width: 991px) {
+  .reviews__landing-features-card {
+    width: 100%;
+    height: auto;
+    min-height: 94px;
+  }
+
+  .reviews__landing-features-card_expanded svg #icon {
+    transform: scale( 1.25 );
+  }
+
+  .reviews__landing-features-card-icon {
+    width: 94px;
+    height: 94px;
+  }
+
+  .reviews__landing-features-block {
+    margin-bottom: 0px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .reviews__landing-features-card:hover {
+    transform: scale( 1.02 ) translateY( -2px );
+
+    svg #icon {
+      transform: scale( 1.25 );
+    }
+  }
+}

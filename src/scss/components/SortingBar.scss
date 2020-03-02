@@ -1,0 +1,20 @@
+.ant-select-selection-selected-value {
+    padding-right: 4px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.ant-select-dropdown.reviews__marketplace-dropdown.rating-dropdown {
+    width: 120px;
+    max-height: 265px;
+    .ant-select-dropdown-menu {
+    	height: auto;
+    	max-height: initial;
+    }
+    .divider {
+    	height: 1px;
+    	background-color: rgba(0, 0, 0, .25);
+    	padding: 0;
+    	margin: 2px 0;
+    }
+}

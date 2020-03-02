@@ -1,0 +1,36 @@
+/**
+*  Thanks Markus Oberlehner for simplyfing this for me :) You're the hero
+*
+*  https://markus.oberlehner.net/blog/pure-css-animated-svg-circle-chart/
+*/
+
+@keyframes circle-chart-fill {
+    to { stroke-dasharray: 0 100; }
+}
+
+@keyframes circle-chart-appear {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.circle__section {
+    position: relative;
+}
+
+.circle__section .circle__gradient-image {
+    transform: rotate( 0deg ) !important;
+    opacity: 0;
+}
+
+.circle__section .circle__highlight {
+    animation: circle-chart-fill 2s reverse;
+    transform: rotate(-90deg);
+    transform-origin: center;
+}
+
+.circle__gradient-image {
+    transition: transform 2s ease-out, opacity 2s ease-out;
+    transform-origin: 50% 50%;
+}

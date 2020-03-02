@@ -1,0 +1,33 @@
+
+.vpinsight__settings-container {
+    height: calc( 100vh - 4rem );
+}
+
+.vpinsight__settings-tab-button {
+    transition: all .3s ease-out;
+}
+
+.vpinsight__settings-tab {
+    background: #F4F7F9;
+}
+
+
+
+@media (min-width: 769px) {
+    .vpinsight__settings-container {
+        height: calc( 100vh - 5.25rem );
+    }
+
+    .vpinsight__settings-tab {
+        background: #F4F7F9;
+        background-size: 100%;
+        background-position: 0px 20vh;
+        background-repeat: no-repeat
+    }
+}
+
+@media (max-width: 768px) {
+    .ant-layout-content {
+        padding-top: 64px !important;
+    }
+}

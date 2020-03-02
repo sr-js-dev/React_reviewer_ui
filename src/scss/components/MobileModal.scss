@@ -1,0 +1,29 @@
+.vpinsight__mobile-modal {
+    transition: opacity .2s ease-in;
+}
+
+.vpinsight__mobile-modal:not(.vpinsight__mobile-modal_light) {
+    background-color: rgba( #000, 0.82 );
+}
+
+.vpinsight__mobile-modal-button {
+    width: 72px;
+    height: 72px;
+
+    left: 50%;
+    margin-left: - floor( 72px / 2 );
+
+    background-color: rgba( #FFFFFF, 0.2 );
+
+    &:hover {
+        background-color: rgba( #FFFFFF, 0.35 );
+    }
+}
+
+.vpinsight__mobile-modal-button.vpinsight__mobile-modal-button_dark {
+    background-color: rgba( #AFB3C0, 0.3 );
+
+    &:hover {
+        background-color: rgba( #AFB3C0, 0.5 );
+    }
+}

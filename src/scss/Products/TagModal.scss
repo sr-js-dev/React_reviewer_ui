@@ -1,0 +1,21 @@
+.reviews__tag-modal {
+  height: 476px;
+
+  .ps__rail-y {
+    z-index: 30;
+  }
+}
+
+.reviews__tags-input {
+  min-height: 70px;
+  height: auto;
+}
+
+.reviews__tags-queue-input input {
+  min-width: 100%;
+  height: 100%;
+  font-size: 12px;
+  font-weight: 500;
+  outline: none;
+}
+

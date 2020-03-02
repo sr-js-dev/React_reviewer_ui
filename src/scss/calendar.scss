@@ -1,0 +1,31 @@
+.vpinsight__calendar-container {
+    padding-top: 3.5rem;
+}
+
+.vpinsight__calendar-card {
+    height: 90px;
+}
+
+.vpinsight__calendar-card_small {
+    width: calc( 50% - .3125rem );
+}
+
+@media (max-width: 520px) {
+    .vpinsight__calendar-card {
+        max-width: 256px;
+    }
+}
+
+@media (min-width: 769px) {
+    .vpinsight__calendar-container {
+        padding-top: 1.875rem + 6.25rem;
+    }
+
+    .vpinsight__calendar-card_small {
+        width: auto;
+    }
+
+    .vpinsight__calendar-card {
+        height: 130px;
+    }
+}

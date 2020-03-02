@@ -1,0 +1,28 @@
+.vpinsight__card-number-input {
+    height: 62px;
+}
+
+.vpinsight__card-submit,
+.vpinsight__card-bottom-row-input {
+    height: 42px;
+}
+
+.vpinsight__card-bottom-row-input {
+    padding-bottom: 0px;
+    padding-top: 1px;
+
+    font-weight: 500;
+    color: #404966;
+}
+
+.vpinsight__card-bottom-row-input::placeholder {
+    font-weight: 500;
+    color: rgba( #404966, 0.4 );
+    opacity: 1;
+}
+
+.vpinsight__card-submit {
+    width: 184px;
+
+    transition: background-color .1s ease-out, box-shadow .1s ease-out;
+}

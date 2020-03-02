@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'vpins';
+  src: url('fonts/vpins.eot');
+  src: url('fonts/vpins.eot?#iefix') format('embedded-opentype'),
+    url('fonts/vpins.woff') format('woff'),
+    url('fonts/vpins.ttf') format('truetype'),
+    url('fonts/vpins.svg#vpins') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: 'vpins' !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^='icon-']:before,
+[class*=' icon-']:before {
+  font-family: 'vpins' !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ac:before {
+  content: '\61';
+}
+.icon-add:before {
+  content: '\62';
+}
+.icon-add-property:before {
+  content: '\63';
+}
+.icon-amenities:before {
+  content: '\64';
+}
+.icon-arrow-down:before {
+  content: '\65';
+}
+.icon-arrow-left:before {
+  content: '\66';
+}
+.icon-arrow-right:before {
+  content: '\67';
+}
+.icon-arrow-up:before {
+  content: '\68';
+}
+.icon-bath:before {
+  content: '\69';
+}
+.icon-bedrooms:before {
+  content: '\6a';
+}
+.icon-billing:before {
+  content: '\6b';
+}
+.icon-cal:before {
+  content: '\6c';
+}
+.icon-check:before {
+  content: '\6d';
+}
+.icon-comps:before {
+  content: '\6f';
+}
+.icon-cross:before {
+  content: '\70';
+}
+.icon-cross-1:before {
+  content: '\71';
+}
+.icon-date-range-icon:before {
+  content: '\74';
+}
+.icon-decrease-big:before {
+  content: '\75';
+}
+.icon-decrease-small:before {
+  content: '\76';
+}
+.icon-dryer:before {
+  content: '\77';
+}
+.icon-edit:before {
+  content: '\78';
+}
+.icon-entire-home:before {
+  content: '\79';
+}
+.icon-fav-off:before {
+  content: '\7a';
+}
+.icon-fav-onn:before {
+  content: '\41';
+}
+.icon-filter:before {
+  content: '\42';
+}
+.icon-guests:before {
+  content: '\43';
+}
+.icon-hamburger:before {
+  content: '\44';
+}
+.icon-heater:before {
+  content: '\45';
+}
+.icon-hot:before {
+  content: '\46';
+}
+.icon-hottub:before {
+  content: '\47';
+}
+.icon-increase-big:before {
+  content: '\48';
+}
+.icon-increase-small:before {
+  content: '\49';
+}
+.icon-info-hover:before {
+  content: '\4a';
+}
+.icon-information:before {
+  content: '\4b';
+}
+.icon-kitchen:before {
+  content: '\4c';
+}
+.icon-location:before {
+  content: '\4d';
+}
+.icon-logout:before {
+  content: '\4e';
+}
+.icon-map:before {
+  content: '\4f';
+}
+.icon-my-listing:before {
+  content: '\50';
+}
+.icon-notifications:before {
+  content: '\51';
+}
+.icon-password:before {
+  content: '\52';
+}
+.icon-pool:before {
+  content: '\53';
+}
+.icon-price-correction:before {
+  content: '\54';
+}
+.icon-price-drop:before {
+  content: '\55';
+}
+.icon-private-room:before {
+  content: '\56';
+}
+.icon-profile:before {
+  content: '\58';
+}
+.icon-property:before {
+  content: '\59';
+}
+.icon-safe:before {
+  content: '\30';
+}
+.icon-save:before {
+  content: '\31';
+}
+.icon-search:before {
+  content: '\32';
+}
+.icon-shared-room:before {
+  content: '\33';
+}
+.icon-sleeps:before {
+  content: '\34';
+}
+.icon-sorting:before {
+  content: '\35';
+}
+.icon-sponsored:before {
+  content: '\36';
+}
+.icon-subscription:before {
+  content: '\38';
+}
+.icon-track:before {
+  content: '\39';
+}
+.icon-track-hov:before {
+  content: '\21';
+}
+.icon-tv:before {
+  content: '\22';
+}
+.icon-warning:before {
+  content: '\23';
+}
+.icon-washer-copy:before {
+  content: '\24';
+}
+.icon-wifi:before {
+  content: '\25';
+}
+.icon-1:before {
+  content: '\6e';
+}
+.icon-2:before {
+  content: '\72';
+}
+.icon-3:before {
+  content: '\73';
+}
+.icon-4:before {
+  content: '\57';
+}

@@ -1,0 +1,26 @@
+export default {
+  id: 207,
+  devise_user_id: 112,
+  last_provided_token:
+    '8459c2d6c8598b3d8d73e216077bfbdce63afb7e71b222b5e7136149938b2dfc',
+  last_token_check_at: '2019-10-29T09:56:59.307Z',
+  api_user: false,
+  created_at: '2019-01-17T16:03:45.786Z',
+  updated_at: '2019-10-29T09:56:59.310Z',
+  active: true,
+  property_id: 426371,
+  settings: {
+    email_address: 'parkcity@test.com',
+    new_user: false,
+    selected_plan: 'free',
+    allowed_nearby_listings: 10,
+    allowed_properties: 1,
+    monthly_amount: '0.0',
+    viewable_days: 30,
+  },
+  admin: false,
+  first_name: 'Park',
+  last_name: 'City',
+  demo_user: false,
+  view_as_user_id: null,
+};

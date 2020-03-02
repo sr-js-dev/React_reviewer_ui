@@ -1,0 +1,42 @@
+.vpinsights__button {
+    transition: color 0.3s ease-in-out;
+}
+
+.vpinsights__button-group-hover {
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    transition-property: width transform;
+}
+.discount-tooltip {
+    position: absolute;
+    right: -133px;
+    top: 4px;
+    color: #1f95ff;
+    z-index: 1;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.discount-tooltip:before {
+    content: '';
+    position: absolute;
+    left: -22px;
+    top: 6px;
+    background: url("/images/settings/arrow.svg");
+    width: 22px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px;
+}
+@media(max-width: 767px) {
+    .discount-outer {
+        margin-top: 25px;
+    }
+    .discount-tooltip:before {
+        left: 73px;
+        top: 20px;
+    }
+    .discount-tooltip {
+        right: -22px;
+        top: -40px;
+    }
+}

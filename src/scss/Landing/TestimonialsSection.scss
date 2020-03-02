@@ -1,0 +1,65 @@
+.reviews__landing-testimonials-section {
+  .reviews__landing-intersection-block:last-child {
+    bottom: -250px !important;
+    z-index: 20;
+  }
+}
+
+.reviews__landing-testimonials-section-list {
+  max-height: 700px;
+  max-width: 1104px;
+
+  width: 80%;
+}
+
+.reviews__landing-testimonials-section-testimonial-quotes {
+  background: url('#{ $imagesRootURL }/landing/testimonials/quotes.svg');
+  background-position: 0px 0px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.reviews__landing-testimonials-section-testimonial-bg {
+  box-shadow: 0px 0px 20px 0px rgba( #404966, 0.1 );
+  transition-delay: 4s;
+}
+
+@media (max-width: 768px) {
+  .reviews__landing-testimonials-section-list {
+    max-height: none;
+    width: calc( 100% + 4rem );
+  }
+
+  .reviews__landing-testimonials-section-testimonial {
+    width: 85%;
+    align-self: flex-start;
+
+    &:nth-child(2n) {
+      align-self: flex-end;
+    }
+  }
+}
+
+@media (min-width: 769px) {
+  .reviews__landing-testimonials-section-list {
+    width: 1104px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 820px) {
+  .reviews__landing-testimonials-section-list {
+    transform: scale(0.72)
+  }
+}
+
+@media (min-width: 821px) and (max-width: 991px) {
+  .reviews__landing-testimonials-section-list {
+    transform: scale(0.8)
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .reviews__landing-testimonials-section-list {
+    transform: scale(0.9)
+  }
+}

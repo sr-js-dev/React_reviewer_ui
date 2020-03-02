@@ -1,0 +1,68 @@
+/**
+    Icons sprite for the project
+
+    I don't really like React way of loading images via
+    JavaScript import. I might be wrong, but I like sprites and
+    iconfonts way more.
+*/
+.vpinsights__icon {
+    /* Set font-size and width in ems, so icon size changes with font */
+    /* font-size: 16px; */
+
+    display: inline-block;
+
+    width: 1em;
+    height: 1em;
+
+    background-image: url( "/images/icons/sprite.svg" );
+    /* WIDTH x NUMBER OF ICONS IN SPRITE */
+    background-size: 2em;
+}
+
+.vpinsights__icon_xl {
+    width: 2.5em;
+    height: 2.5em;
+
+    background-size: 5em;
+}
+
+.vpinsights__icon_l {
+    width: 2em;
+    height: 2em;
+
+    background-size: 4em;
+}
+
+.vpinsights__icon_m {
+    width: 1.5em;
+    height: 1.5em;
+
+    background-size: 3em;
+}
+
+
+/* If using SCSS, this will be a loop ;) */
+
+/* Home icon */
+.vpinsights__icon_home {
+    /* 0 0 means we don't have to add styles for sizes */
+    background-position: 0px 0px;
+}
+
+/* Edit icon */
+.vpinsights__icon_edit {
+    /* here we have to address each size */
+    background-position: -1em 0px;
+}
+
+.vpinsights__icon_edit.vpinsights__icon_xl {
+    background-position: -2.5em 0px;
+}
+
+.vpinsights__icon_edit.vpinsights__icon_l {
+    background-position: -2em 0px;
+}
+
+.vpinsights__icon_edit.vpinsights__icon_l {
+    background-position: -1.5em 0px;
+}

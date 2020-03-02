@@ -1,0 +1,28 @@
+.reviews__cards-panel {
+  background-color: rgba(#404966, 0.25);
+}
+
+@media (min-width: 769px) {
+  .reviews__cards-panel {
+    height: 220px;
+  }
+}
+
+@media (min-width: 992px) {
+  .reviews__cards-card {
+    max-width: 17.5%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 991px) {
+  .reviews__cards-panel {
+    padding-left: 0px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .reviews__cards-card {
+    width: 220px;
+    height: 118px;
+  }
+}

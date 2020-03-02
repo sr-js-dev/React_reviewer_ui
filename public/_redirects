@@ -1,0 +1,2 @@
+/server/* https://api.amazonreviewtracker.com/:splat 200
+/* /index.html 200

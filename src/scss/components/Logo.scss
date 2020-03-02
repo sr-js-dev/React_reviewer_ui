@@ -1,0 +1,51 @@
+.vpinsight__logo-image {
+    width: 46px;
+    height: 46px;
+    background-image: url( "/images/logos/logo.svg" );
+    background-size: 100%;
+
+    &__big {
+        width: 60px;
+        height: 60px;
+        flex-shrink: 0;
+    }
+
+    &__small {
+        width: 29px;
+        height: 29px;
+        flex-shrink: 0;
+    }
+}
+
+.vpinsight__logo {
+    max-width: 120px;
+    font-size: 11px;
+
+    &__main {
+        max-width: initial;
+    }
+}
+
+.vpinsight__logo,
+.vpinsight__logo:hover,
+.vpinsight__logo:visited {
+    color: #D9DDE0;
+
+    transition: transform .4s ease-out;
+}
+
+.vpinsight__topbar_transparent .vpinsight__logo {
+    font-size: 13px;
+    transform: translateY(11px);
+}
+
+.vpinsight__topbar_transparent .vpinsight__logo > div:last-child {
+    margin-left: 13px;
+    letter-spacing: 1.4px;
+}
+
+.vpinsight__topbar_transparent .vpinsight__logo-image {
+    width: 55px;
+    height: 55px;
+    flex-shrink: 0;
+}

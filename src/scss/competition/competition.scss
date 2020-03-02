@@ -1,0 +1,59 @@
+.competition-container {
+  padding-top: 48px;
+
+  @media screen and (min-width: 769px) {
+    padding-top: 100px;
+  }
+}
+
+.close-button {
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 50% !important;
+  top: 20px;
+  right: 20px;
+}
+
+.competition-result {
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 1px;
+    background-color: rgba(175, 179, 192, .2);
+  }
+
+  >span {
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+  }
+}
+
+.wrapper-competition {
+
+  @media screen and (min-width: 576px) {
+    height: calc(100vh - 357px);
+  }
+
+  @media screen and (min-width: 768px) {
+    height: calc(100vh - 569px);
+  }
+
+  @media screen and (min-width: 1200px) {
+    height: calc(90vh - 200px);
+  }
+}
+
+.ps > .ps__scrollbar-x-rail {
+  display: none !important;
+}
+
+.rotate-icon {
+  display: inline-block;
+  transform: rotate3d(20, 0, 0, 180deg);
+  transform-origin: center;
+}

@@ -1,0 +1,42 @@
+.infoPopup-container {
+    box-shadow: 0 12px 24px 0 rgba(85, 88, 98, 0.2);
+    min-width: 248px;
+    bottom: 115%;
+    left: 0;
+    z-index: 5;
+
+    &:after{
+        content: '';
+        position: absolute;
+        left: 20px;
+        bottom: -10px;
+        border: 10px solid transparent;
+        border-top: 10px solid #ffffff;
+    }
+}
+
+.infoPopup-tooltip {
+    max-width: 100%;
+
+    .ant-tooltip-inner {
+      padding: 0;
+      background-color: transparent;
+    }
+
+    .ant-tooltip-arrow {
+      display: none;
+    }
+}
+
+.icon-check {
+    color: #fff;
+    background-color: #35c635;
+    border-radius: 50%;
+    font-size: 8px;
+    height: 16px;
+    width: 16px;
+    min-width: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

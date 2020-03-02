@@ -1,0 +1,20 @@
+@media ( min-width: 992px ) and ( max-width: 1080px ) {
+    .vpinsight__topbar .vpinsight__filter-bar {
+        width: 90% !important;
+    }
+}
+
+
+@media (min-width: 992px) {
+    .vpinsight__topbar {
+        padding-left: 30px;
+        padding-right: 30px;
+
+        transition: all .4s ease-out;
+    }
+
+    .vpinsight__topbar.vpinsight__topbar_transparent {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+}

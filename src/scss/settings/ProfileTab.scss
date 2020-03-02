@@ -1,0 +1,55 @@
+.vpinsight__profile-form {
+    width: 100%;
+}
+
+.vpinsight__profile-password-block {
+    max-height: 17px;
+
+    transition: max-height .2s ease-in-out;
+
+    &.active {
+        max-height: 600px;
+    }
+}
+
+.vpinsight__profile-password-toggle {
+
+    outline: none;
+
+    &:focus {
+        outline: none;
+    }
+
+    span {
+        display: inline-block;
+        z-index: 2;
+
+        padding: 0px 8px;
+    }
+
+    &:after {
+        content: " ";
+        display: block;
+
+        position: absolute;
+
+        top: 50%;
+        left: 0px;
+
+        margin-top: 1px;
+
+        z-index: 1;
+
+        width: 100%;
+        height: 1px;
+
+
+        background: rgba( #AFB3C0, 0.2 );
+    }
+}
+
+@media (min-width: 768px) {
+    .vpinsight__profile-form {
+        width: 450px;
+    }
+}

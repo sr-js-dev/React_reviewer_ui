@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="19px" viewBox="0 0 28 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Flags/CA</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="28" height="19" rx="2"></rect>
+    </defs>
+    <g id="Flags/CA" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect stroke="#979797" x="0.5" y="0.5" width="27" height="18" rx="2"></rect>
+        <g id="206-canada" mask="url(#mask-2)" fill-rule="nonzero">
+            <rect id="Rectangle" fill="#F0F0F0" x="0" y="0.0183888889" width="28" height="18.9625556"></rect>
+            <g id="Group" fill="#D80027">
+                <rect id="Rectangle" x="0" y="0.0183888889" width="9.33313281" height="18.9631667"></rect>
+                <rect id="Rectangle" x="18.6668672" y="0.0183888889" width="9.33313281" height="18.9631667"></rect>
+                <polygon id="Path" points="15.75 10.8168889 17.5 9.928 16.625 9.48361111 16.625 8.59472222 14.875 9.48361111 15.75 7.70583333 14.875 7.70583333 14 6.37244444 13.125 7.70583333 12.25 7.70583333 13.125 9.48361111 11.375 8.59472222 11.375 9.48361111 10.5 9.928 12.25 10.8168889 11.8125547 11.7057778 13.5625547 11.7057778 13.5625547 13.0391667 14.4375547 13.0391667 14.4375547 11.7057778 16.1875547 11.7057778"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

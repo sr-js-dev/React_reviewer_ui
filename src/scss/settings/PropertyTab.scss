@@ -1,0 +1,88 @@
+.vpinsight__property-list {
+    width: 100%;
+}
+
+.vpinsight__settings-property {
+    height: 7.5rem;
+    .vpinsight__spinner {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.vpinsight__vrbo-gradient {
+    background: linear-gradient( 0deg, #1C4695, #245ABC );
+    box-shadow: 0px 3px 4px 0px rgba( #1C4695, 0.2 );
+}
+
+.vpinsight__air-gradient {
+    background: linear-gradient( 0deg, rgba( #fff, 0 ), rgba( #fff, 0.2 ) ), #FF5A5F;
+    box-shadow: 0px 3px 4px 0px rgba( #FF5A5F, 0.2 );
+}
+
+.vpinsight__filter-clear span,
+.vpinsight__filter-clear span:before {
+    display: block;
+    max-height: 10px;
+    overflow: hidden;
+}
+
+.vpinsight__places-autocomplete-input.vpinsight__places-autocomplete-input_settings input {
+    border-color: #E7E8EA;
+
+    &:focus {
+        border-color: rgba(29, 111, 220, .4);
+    }
+}
+
+.listing-property-tag {
+    position: relative;
+    width: 85px;
+    height: auto;
+     img {
+        width: 100px;
+        height: 85px;
+     }
+}
+
+.property-label {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    top: -10px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 5px;
+    height: 18px;
+    font-weight: bold;
+    line-height: 19px;
+    z-index: 1;
+    width: 77px;
+}
+
+.listing-airbnb {
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, .2)), #ff5a5f;
+}
+
+.listing-vrbo {
+    background: #1d924c;
+}
+
+@media (min-width: 768px) {
+    .vpinsight__property-list {
+        width: 740px;
+        // height: 100px;
+    }
+
+    .vpinsight__settings-property {
+        // display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    .vpinsight__settings-property {
+        height: auto;
+    }
+}

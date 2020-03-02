@@ -1,0 +1,43 @@
+.reviews__tag-pill {
+    margin: 5px;
+
+    &.reviews__tag-pill_accent {
+        font-weight: 700;
+        color: #fff;
+        background-color: #1d6fdc;
+
+        &:hover {
+            background-color: #5494E8;
+        }
+    }
+
+    &.reviews__tag-pill_untagged {
+        color: rgba( #343539, 0.5 );
+    }
+
+    &.reviews__tag-pill_untagged.reviews__tag-pill_accent {
+        color: #fff;
+    }
+
+    &.reviews__tag-pill_more {
+        background-color: #fff;
+        border: 1px solid rgba(216, 218, 223, 0.4);
+        color: #afb3c0;
+        font-weight: 700;
+
+        &:hover {
+            background-color: rgba(216, 218, 223, 0.4);
+            border-color: rgba( #fff, 0 );
+        }
+    }
+}
+
+.reviews__tag-filter {
+    padding: 5px 10px;
+}
+
+@media (min-width: 992px) {
+    .reviews__tag-filter {
+        padding: 5px 25px;
+    }
+}

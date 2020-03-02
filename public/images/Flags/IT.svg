@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="19px" viewBox="0 0 28 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>Flags/IT</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="28" height="19" rx="2"></rect>
+    </defs>
+    <g id="Flags/IT" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <rect stroke="#979797" x="0.5" y="0.5" width="27" height="18" rx="2"></rect>
+        <g id="011-italy" mask="url(#mask-2)" fill-rule="nonzero">
+            <polygon id="Path" fill="#F0F0F0" points="18.6667031 0 9.33329688 0 0 0 0 19 9.33329688 19 18.6667031 19 28 19 28 0"></polygon>
+            <rect id="Rectangle" fill="#6DA544" x="0" y="0" width="9" height="19"></rect>
+            <rect id="Rectangle" fill="#D80027" x="19" y="0" width="9" height="19"></rect>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+.reviews__landing-pricing-section {
+  background-color: #fff;
+  background-image: linear-gradient(to top, rgba(29, 111, 220, 0), rgba(29, 111, 220, 0.1));
+  height: auto !important;
+}
+
+.reviews__landing-pricing-section.vpinsight__settings-container .slick-slider {
+  position: relative;
+  width: calc( 100% + #{ 2rem * 2 } );
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .reviews__landing-pricing-section.vpinsight__settings-container .slick-slider {
+    width: 100%;
+  }
+}

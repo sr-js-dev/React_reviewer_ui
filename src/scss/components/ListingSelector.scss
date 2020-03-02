@@ -1,0 +1,44 @@
+.vpinsight__listing-buttons,
+.vpinsight__listing-buttons .vpinsights__button,
+.vpinsight__listing-buttons .vpinsights__button-group-hover {
+    height: 28px;
+}
+
+.vpinsight__listing-buttons {
+    border-radius: 6px;
+    border-color: rgba($color: #000000, $alpha: 0);
+    background-color: rgba( #AFB3C0, 0.2 );
+}
+
+.vpinsight__listing-buttons .vpinsights__button {
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.vpinsight__listing-buttons .vpinsights__button-group-hover {
+    background: linear-gradient( 0deg, rgba( #fff, 0 ), rgba( #fff, 0.2 ) ), #FF5A5F;
+    box-shadow: 0px 3px 4px 0px rgba( #FF5A5F, 0.2 );
+
+    border-radius: 6px;
+}
+
+.vpinsight__listing-buttons.vrbo_selected .vpinsights__button-group-hover {
+    background: linear-gradient( 0deg, #1C4695, #245ABC );
+    box-shadow: 0px 3px 4px 0px rgba( #1C4695, 0.2 );
+}
+
+@media ( max-width: 557px ) {
+    .vpinsights__button, .vpinsights__button-group-hover {
+        min-width: 60px
+    }
+
+    .vpinsight__listing-buttons .vpinsights__button {
+        padding: 0px 14px;
+    }
+}
+
+@media ( min-width: 557px ) {
+    .vpinsight__listing-buttons {
+        background-color: #fff;
+    }
+}

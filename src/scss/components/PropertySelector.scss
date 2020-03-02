@@ -1,0 +1,50 @@
+.vpinsight__property-selector {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.vpsinsight__property-selector-property {
+    transition: opacity 0.2s ease-in-out, width 0.6s ease-out;
+}
+
+.vpinsight__property-selector-input {
+    font-size: 14px;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.vpinsight__property-selector-input::placeholder {
+    font-weight: 600;
+    color: #A8ADBC
+}
+
+.vpinsight__property-selector-dropdown {
+    max-height: 438px;
+    overflow: hidden;
+
+    z-index: 30;
+    width: 360px;
+    // left: 290px;
+    // position: absolute;
+    // top: -70px;
+}
+
+.vpinsight__property-selector-scrollsection {
+
+}
+
+.vpinsight__mobile-prop-list {
+    max-height: calc( 50vh - 64px );
+    top: 64px;
+
+    transition: max-height .2s ease-out;
+
+    &:not(.active) {
+        max-height: 0px;
+    }
+}
+
+.vpinsight__mobile-prop-scroll-block {
+    max-height: calc( 100% - 64px );
+}

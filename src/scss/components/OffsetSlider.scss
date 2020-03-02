@@ -1,0 +1,14 @@
+.reviews__offset-slider {
+
+  .slick-slide > div {
+    padding-right: 10px;
+  }
+
+  .slick-slide:not(.slick-current) {
+    transform: translateX( -10px );
+  }
+
+  .slick-slide.slick-current + .slick-slide {
+    transform: translateX( 4px );
+  }
+}

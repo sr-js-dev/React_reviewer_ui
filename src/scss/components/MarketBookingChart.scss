@@ -1,0 +1,80 @@
+
+.marketBookingChart__chart-container {
+    width: calc( 100% + 100px );
+    left: -50px;
+}
+
+.marketBookingChart__chart,
+.marketBookingChart__chart-bottom {
+    width: calc( 100% + 50px );
+    left: -25px;
+}
+
+.marketBookingChart__chart-bottom {
+    width: calc( 100% + 46px );
+    left: 50%;
+    margin-left: calc( ( 100% + 46px ) / -2 );
+}
+
+.marketBookingChart__chart {
+    height: 348px;
+}
+
+.marketBookingChart__buttons .vpinsights__button-group-hover {
+    background: #FEC400;
+    box-shadow: 0px 3px 8px 0px rgba( #FEC400, 0.35 );
+}
+
+.marketBookingChart__tooltip {
+    width: 224px;
+    height: 114px;
+
+    .vpinsights__tooltip-inside {
+        display: flex;
+    }
+}
+
+@media (max-width: 768px) {
+    .marketBookingChart__container {
+        height: auto;
+    }
+
+    .marketBookingChart__chart-container {
+        overflow-y: hidden;
+        overflow-x: scroll;
+
+        width: calc( 100% + 1.75rem );
+        left: -0.875rem;
+    }
+
+    .marketBookingChart__chart,
+    .marketBookingChart__chart-bottom {
+        width: 200vw;
+    }
+
+    .nightlyRatesChart__top {
+        flex-direction: column;
+        margin-bottom: 34px;
+    }
+
+    .nightlyRatesChart__label {
+        margin-top: 10px;
+        margin-bottom: 24px;
+    }
+
+    .nightlyRatesChart__tooltip {
+        /* top: 240px; */
+    }
+
+    .nightlyRatesChart__error-message {
+        width: 100%;
+        height: calc(100% - 10.4rem);
+        top: 10.4rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .marketBookingChart__container {
+        // margin-bottom: 0px;
+    }
+}

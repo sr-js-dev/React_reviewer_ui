@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'review-tracker';
+  src: url('fonts/review-tracker.eot');
+  src: url('fonts/review-tracker.eot?#iefix') format('embedded-opentype'),
+    url('fonts/review-tracker.woff') format('woff'),
+    url('fonts/review-tracker.ttf') format('truetype'),
+    url('fonts/review-tracker.svg#review-tracker') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: 'review-tracker' !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^='icon-']:before,
+[class*=' icon-']:before {
+  font-family: 'review-tracker' !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-add:before {
+  content: '\61';
+}
+.icon-add-property:before {
+  content: '\62';
+}
+.icon-amenities:before {
+  content: '\63';
+}
+.icon-arrow-down:before {
+  content: '\64';
+}
+.icon-arrow-left:before {
+  content: '\65';
+}
+.icon-arrow-right:before {
+  content: '\66';
+}
+.icon-arrow-up:before {
+  content: '\67';
+}
+.icon-bath:before {
+  content: '\68';
+}
+.icon-bedrooms:before {
+  content: '\69';
+}
+.icon-billing:before {
+  content: '\6a';
+}
+.icon-cal:before {
+  content: '\6b';
+}
+.icon-check:before {
+  content: '\6c';
+}
+.icon-comments:before {
+  content: '\6d';
+}
+.icon-comps:before {
+  content: '\6e';
+}
+.icon-cross:before {
+  content: '\6f';
+}
+.icon-cross-1:before {
+  content: '\70';
+}
+.icon-dashboard:before {
+  content: '\71';
+}
+.icon-dashboard-1:before {
+  content: '\72';
+}
+.icon-date-range-icon:before {
+  content: '\73';
+}
+.icon-decrease-big:before {
+  content: '\74';
+}
+.icon-decrease-small:before {
+  content: '\75';
+}
+.icon-edit:before {
+  content: '\76';
+}
+.icon-entire-home:before {
+  content: '\77';
+}
+.icon-fav-off:before {
+  content: '\78';
+}
+.icon-fav-onn:before {
+  content: '\79';
+}
+.icon-filter:before {
+  content: '\7a';
+}
+.icon-hamburger:before {
+  content: '\41';
+}
+.icon-increase-big:before {
+  content: '\42';
+}
+.icon-increase-small:before {
+  content: '\43';
+}
+.icon-info-hover:before {
+  content: '\44';
+}
+.icon-information:before {
+  content: '\45';
+}
+.icon-location:before {
+  content: '\46';
+}
+.icon-logout:before {
+  content: '\47';
+}
+.icon-map:before {
+  content: '\48';
+}
+.icon-my-listing:before {
+  content: '\49';
+}
+.icon-notifications:before {
+  content: '\4a';
+}
+.icon-password:before {
+  content: '\4b';
+}
+.icon-price-correction:before {
+  content: '\4c';
+}
+.icon-price-drop:before {
+  content: '\4d';
+}
+.icon-private-room:before {
+  content: '\4e';
+}
+.icon-products:before {
+  content: '\4f';
+}
+.icon-profile:before {
+  content: '\50';
+}
+.icon-property:before {
+  content: '\51';
+}
+.icon-reviews:before {
+  content: '\52';
+}
+.icon-search:before {
+  content: '\53';
+}
+.icon-shared-room:before {
+  content: '\54';
+}
+.icon-sleeps:before {
+  content: '\55';
+}
+.icon-sorting:before {
+  content: '\56';
+}
+.icon-star:before {
+  content: '\57';
+}
+.icon-subscription:before {
+  content: '\58';
+}
+.icon-track:before {
+  content: '\59';
+}
+.icon-track-hov:before {
+  content: '\5a';
+}
+.icon-warning:before {
+  content: '\30';
+}

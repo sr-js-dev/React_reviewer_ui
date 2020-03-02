@@ -1,0 +1,33 @@
+$vendors: (
+    "visa",
+    "mastercard",
+    "amex",
+    "discover",
+    "diners",
+    "jcb",
+    "unionpay",
+    "unknown"
+);
+
+$width: 116px;
+$height: 42px;
+
+.vpsinsight__credit-card-provider-icon {
+
+    width: $width;
+    height: $height;
+
+    background-image: url( "#{ $imagesRootURL }/settings/payment-vendors.svg" );
+    background-size: 116px 336px;
+    background-position: 0px #{ - floor( $height * ( length( $vendors ) - 1 ) ) };
+    background-repeat: no-repeat;
+}
+
+@each $vendor in $vendors {
+    $index: index( $vendors, $vendor ) - 1;
+
+    .vpsinsight__credit-card-provider-icon.vpsinsight__credit-card-provider-icon_#{ $vendor } {
+        background-position: 0px #{ - floor( $height * $index ) }
+    }
+}
+

@@ -1,0 +1,24 @@
+.vpreservations__pagination-container {
+    display: flex;
+    justify-content: center;
+
+    color: #405566;
+
+    list-style: none;
+
+    padding: 0px 32px;
+
+    width: 100%;
+    height: 32px;
+
+    li {
+        min-width: 20px;
+        margin: 20px 20px;
+
+        a { color: #405566; }
+
+        &.selected {
+            font-weight: 700;
+        }
+    }
+}

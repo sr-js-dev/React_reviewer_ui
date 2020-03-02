@@ -1,0 +1,15 @@
+<svg width="704px" height="389px" viewBox="0 0 704 389">
+  <defs>
+    <filter x="-4.6%" y="-9.1%" width="109.2%" height="118.3%" filterUnits="objectBoundingBox" id="filter-2">
+      <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+      <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+      <feColorMatrix values="0 0 0 0 0.250980392   0 0 0 0 0.284692029   0 0 0 0 0.4  0 0 0 0.1 0" type="matrix"
+        in="shadowBlurOuter1"></feColorMatrix>
+    </filter>
+  </defs>
+
+  <g id="Rectangle" transform="translate(333.000000, 176.000000) translate(-333.000000, -176.000000) ">
+    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#rect"></use>
+    <rect id="rect" x="6" y="12" width="654" height="328" rx="6" fill="#fff"></rect>
+  </g>
+</svg>

@@ -1,0 +1,27 @@
+.listingsModal__header {
+    height: 140px;
+}
+
+.listingsModal__footer {
+    height: 88px;
+}
+
+.listingsModal__listing-icon_VRBO {
+    background: #1D924C;
+}
+
+.listingsModal__listing-icon_AirBnb {
+    background: linear-gradient( 90deg, rgba( #fff, 0 ), rgba( #fff, 0.2 ) ), #FF5A5F;
+}
+
+.listingsModal__listings {
+    max-height: 50vh;
+}
+
+.listingsModal__container .ant-spin-container {
+    border-radius: .375rem;
+    overflow: hidden;
+}
+.property-modal {
+    cursor: pointer;
+}

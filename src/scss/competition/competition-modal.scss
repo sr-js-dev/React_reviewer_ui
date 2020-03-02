@@ -1,0 +1,31 @@
+.vpinsight__mobile-modal_competition-card {
+  z-index: 1050;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.vpinsight__competition-popup {
+  background-color: rgba(0, 0, 0, 0.82);
+  z-index: 1001;
+}
+
+.competition-card-modal {
+  background-color: #fff;
+  max-width: 605px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px 0 rgba(85, 88, 98, 0.1);
+  overflow: hidden;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+  .competition-card-modal {
+    max-width: 355px;
+  }
+}
