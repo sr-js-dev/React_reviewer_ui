@@ -31,7 +31,7 @@
     "html-to-draftjs": "1.4.0",
     "immutability-helper": "^3.0.1",
     "moment": "2.22.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^7.0.0",
     "numeral": "^2.0.6",
     "perfect-scrollbar": "^1.4.0",
     "postcss-cli": "6.1.3",
